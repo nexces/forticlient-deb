@@ -1,0 +1,5 @@
+pkg
+src
+forticlient-*.deb
+forticlient-*.src.tar.gz*
+forticlient-*.pkg.tar.xz*
