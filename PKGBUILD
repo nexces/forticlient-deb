@@ -1,7 +1,7 @@
 # Maintainer: Adrian Piotrowicz <nexces+chakraos@nxstudio.pl>
 
 pkgname=forticlient-deb
-pkgver=4.4.2330
+pkgver=4.4.2331
 pkgrel=1
 pkgdesc="FortiClient SSL VPN from hadler.me packages"
 arch=(x86_64)
@@ -14,7 +14,7 @@ conflicts=('forticlient')
 replaces=('forticlient')
 options=(!strip staticlibs)
 source=(https://hadler.me/files/forticlient-sslvpn_${pkgver}-${pkgrel}_amd64.deb)
-sha256sums=('ebeec66baf5d15c40eaf1b9f4c721b29252d6314a354e5798ca6a036279e8640')
+sha256sums=('d76f2ad93968cbce333d813ab6c6fbe6bd3bd1966f7caa08c4983da89d579871')
 
 prepare() {
 	cd "$srcdir"
